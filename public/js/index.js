@@ -54,6 +54,12 @@ $(document).ready(function(){
         verticalSwiping: true,
         lazyLoad: 'ondemand'
     });
+    $('.parent_slick').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        if (currentSlide == 0) {
+            vid.pause();
+            $("#video_play").show();
+        }
+    })
     setPhotoHeight();
 });
 
