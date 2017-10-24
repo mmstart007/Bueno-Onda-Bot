@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Now Amazing Webpage</title>
+        <title>Bueno Onda</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
         <link rel="stylesheet" type="text/css" href="public/vendor/slick/slick.css"/>

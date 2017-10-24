@@ -50,6 +50,8 @@ html, body {
 }
 .learn_more {
     color: white;
+    font-family: "Arial";
+    font-size: 15px;
 }
 .left_panel {
     display: table-cell;
