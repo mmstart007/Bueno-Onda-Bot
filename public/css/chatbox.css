@@ -1,0 +1,100 @@
+.Conversation {
+    top: 0 !important;
+    bottom: 0 !important;
+}
+
+.Conversation .lines {
+    padding-bottom: 50px;
+}
+
+.Conversation::after {
+    content: '';
+    width: calc(100% - 10px);
+    position: fixed;
+    height: 60px;
+    bottom: 0px;
+    left: 0;
+    display: block;
+
+    background-image: -moz-linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
+    background-image: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%);
+}
+
+.quick-reply-button {
+    font-size: 11px;
+    padding: 5px 10px;
+    white-space: nowrap;
+    margin: 3px;
+    width: auto;
+    max-width: 95%;
+    cursor: pointer;
+    background-color: #9dffd0;
+}
+
+.MessageGroup-avatarColumn {
+    display: none !important;
+}
+
+.MessageGroup-messagesColumn {
+    margin-left: 0px !important;
+}
+
+.hdvc-wrap.hdvc-full-image {
+    max-width: 80%;
+    display: block;
+}
+
+.hdvc-wrap.hdvc-full-image img {
+    width: 100%;
+}
+
+.Message--service .Button {
+    display: inline-block;
+    width: 49%;
+    margin: 5px auto 15px auto;
+    height: 150px;
+}
+.Message--service .Button span {
+    font-size: 12px;
+}
+
+.Message--service .Button .Button-img {
+    margin: 0 auto 5px;
+    background-size: contain;
+    height: 39%;
+    border-radius: 0;
+}
+
+.Message--video {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.5%;
+}
+
+iframe.Message-videoFrame {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.Message--service .Button {
+    width: 90%;
+}
+.Message--service .Button .Button-img {
+    margin: 0 auto 5px;
+    background-size: contain;
+    height: 78%;
+    border-radius: 5px;
+}
+.Message--service .Button span {
+    font-size: 15px;
+}
+
+.message-loader {
+    width: 80px;
+    height: 10px;
+    margin: 5px auto;
+    background: url("https://cbmedia3.contobox.com/cbox_themes_v3/bridgestone_chatbot_q2_2017/images/msg-loader.gif") no-repeat;
+}
